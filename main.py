@@ -4,7 +4,7 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 
-GOOGLE_API_KEY = "AIzaSyBvf1RZvP6PpGmbTBg-5yKAPjyOV1pNHHU"  # Your API Key
+GOOGLE_API_KEY = ""  # Your API Key
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def list_available_models():
